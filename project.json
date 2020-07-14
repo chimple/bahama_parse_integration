@@ -1,0 +1,8 @@
+{
+  "engine": "cocos2d-html5",
+  "packages": "packages",
+  "version": "2.4.0",
+  "name": "bahama_parse_integration",
+  "id": "b8ce553a-e2f6-4859-bc7c-990cd1e6121a",
+  "isNew": false
+}
