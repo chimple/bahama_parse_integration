@@ -1,5 +1,7 @@
+import {ParseACL} from "./parseACL";
+
 export class ParseLoggedInUser {
-    ACL: any;
+    acl: ParseACL;
     createdAt: string;
     email: string;
     objectId: string;

@@ -1,9 +1,13 @@
 export class ParseSchool {
-    code: string;
-    createdAt: string;
-    name: string;
     objectId: string;
+    user: Pointer;
+    name: string;
+    createdAt: string;
     updatedAt: string;
+    subjects: [Pointer];
+    image: FilePointer;
+    __type: string;
+    className: string;
 }
 
 export interface Pointer {
